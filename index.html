@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#1a0b2e" />
+<title>Happy Birthday, Hunter!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Luckiest+Guy&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="ui">
+  <div id="lyrics"></div>
+  <div id="center"><div id="big"></div><div id="sub"></div></div>
+  <div id="monkey" class="hidden"><div class="bob"><svg viewBox="0 0 284 600"><path d="M78 243 Q100 330 121 402 M128 140 Q118 280 121 402 M168 247 Q140 330 121 402" stroke="#f5f0e6" stroke-width="2" fill="none" opacity=".85"/></svg><img src="art/monkey.png" alt="" /></div></div>
+  <button id="btn" class="btn hidden"></button>
+  <div id="hint" class="hidden"></div>
+  <div id="bubbles"></div>
+  <div id="card" class="hidden">
+    <div class="rays"></div>
+    <div class="cardInner">
+      <div class="gnum" id="gnum"></div>
+      <div class="gimgWrap"><img id="gimg" alt="" /><div id="gph">🎁</div></div>
+      <h2 id="gtitle"></h2>
+      <p id="gdesc"></p>
+      <div class="from">From <span id="gfrom"></span></div>
+    </div>
+    <button id="next" class="btn"></button>
+  </div>
+  <div id="finale" class="hidden">
+    <div class="sign"><div class="ropes"></div><div class="bulbs"></div>
+      <div class="l l1">HAPPY</div><div class="l l2">BIRTHDAY,</div><div class="l l3">HUNTER!</div>
+    </div>
+    <div id="haul"></div>
+    <button id="replay" class="btn small">Watch again 🎂</button>
+  </div>
+  <div id="flash"></div>
+  <div id="iris"></div>
+  <div id="start">
+    <div class="gift">🎁</div>
+    <h1>Hunter's<br/>Birthday<br/>Surprise!</h1>
+    <p>Turn your sound ON 🔊<br/>(ringer switch too)</p>
+    <button id="go" class="btn">Tap to open</button>
+  </div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
